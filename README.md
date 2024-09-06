@@ -35,6 +35,4 @@ Evaluation
 Performance on Test Data:
 After training, the model is evaluated on a separate test dataset to determine its ability to generalize to unseen data.
 The test accuracy achieved is approximately 76.5%, indicating that the model correctly classifies around 76.5% of the test images.
-Challenges and Observations:
-The gap between training and validation accuracy suggests that the model may be overfitting to the training data.
-Additional strategies, such as using dropout, more extensive data augmentation, or a more complex model architecture, could potentially improve the model's generalization.
+improve the model's generalization.
