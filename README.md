@@ -1,12 +1,15 @@
 # deeplearning
-Problem Statement
+Problem Statement:
+
 The task involves building an image classification model using deep learning techniques. The model aims to classify images into different categories based on their visual features. The notebook demonstrates the steps for preparing the dataset, defining the neural network architecture, training the model, and evaluating its performance on unseen data.
 
-Dataset Description
+Dataset Description:
+
 Source: The dataset appears to consist of images, but the exact source and content details are not explicitly mentioned in the notebook. It might be a custom dataset or a standard dataset for image classification.
 Content: The dataset likely contains multiple categories/classes of images, which the model will learn to differentiate.
 
 Preprocessing:
+
 The dataset is preprocessed and augmented using techniques such as:
  Gaussian Noise: Adding noise to the images to make the model more robust to variations.
  Brightness Adjustment: Modifying image brightness to account for different lighting conditions.
@@ -14,6 +17,7 @@ The dataset is preprocessed and augmented using techniques such as:
 Data is likely split into training, validation, and test sets to facilitate model training and evaluation.
 
 Model Training
+
 Model Architecture:
  The notebook uses a deep learning model, likely a Convolutional Neural Network (CNN), designed for image classification. The exact architecture (e.g., number of layers, types of layers) isn't fully detailed in the extracted content.
  The model is compiled with an appropriate loss function (e.g., categorical cross-entropy for multi-class classification) and an optimizer (such as Adam).
@@ -27,6 +31,7 @@ The training accuracy improves over the epochs, reaching around 99% by the end.
 The validation accuracy fluctuates, suggesting potential overfitting or variability in the validation set.
 
 Evaluation
+
 Performance on Test Data:
 After training, the model is evaluated on a separate test dataset to determine its ability to generalize to unseen data.
 The test accuracy achieved is approximately 76.5%, indicating that the model correctly classifies around 76.5% of the test images.
